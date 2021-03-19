@@ -12,6 +12,7 @@
 ### Fronted libraries used ###
 
 * Bootstrap 3.3.7 (Cloudflare CDN)
+* Google Prettify
 * Bootstrap Tags Input 0.8  (Cloudflare CDN)
 * Slick carousel 1.8.1  (Cloudflare CDN)
 * \+ custom CSS/JS
