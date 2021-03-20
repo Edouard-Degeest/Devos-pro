@@ -1,6 +1,12 @@
 <?php require("header.php") ?>
   <!-- ***** Header Area End ***** -->
 
+ 
+
+<div class="video-container background-header">
+    <video src="video-fond.mp4" autoplay loop muted></video>
+</div>
+
 
   <!-- ***** Welcome Area Start ***** -->
   <div class="welcome-area" id="welcome">
@@ -58,8 +64,8 @@
                           <h2>03</h2>
                           <img src="assets/images/features-icon-3.png" alt="">
                           <h4>Surfer</h4>
-                          <p>Trouver du code pro et fiable à tout moment !</p>
-                          <a href="page.html" class="main-button">
+                          <p>Trouver du code pro et fiable !</p>
+                          <a href="#" class="main-button">
                               Acceder ->
                           </a>
                       </div>
@@ -225,14 +231,14 @@
                     <h2>Des Problèmes ?<em><br>Contactez nous</em></h2>
                         <br><br>
                     <ul class="social">
-                        <li><a href="https://fb.com/templatemo"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa fa-github"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
-    <a class="text-white" href="https://mdbootstrap.com/"> Bilel, Fabrice, Edouard</a>
+    <a class="text-white" href="#"> Bilel, Fabrice, Edouard</a>
   </div>
   <!-- Copyright -->
  <script src="assets/js/jquery-2.1.0.min.js"></script>

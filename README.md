@@ -1,29 +1,28 @@
 # DEVOS-PRO #
-
+![photo-site](https://user-images.githubusercontent.com/55830722/111809476-50cdac80-88d5-11eb-873f-ade88007392b.JPG)
 
 # WEBSITE SOCIAL MEDIA #
-
 ## Used technologies ##
 
-### Development tools ###
+### Development Languages ###
+<br>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
 
-* HTML5
-* CSS3
-* JAVASCRIPT
-* PHP
+------------------------------------
+### Frontend libraries used ###
 
-
-### Fronted libraries used ###
-
-* Bootstrap 3.3.7 (Cloudflare CDN)
-* Bootstrap Tags Input 0.8  (Cloudflare CDN)
+* Bootstrap  (Cloudflare CDN)
 * Slick carousel 1.8.1  (Cloudflare CDN)
 * \+ custom CSS/JS
 ------------------------------------
 
-## Frontend files / compiled files
+##  Files / compiled files
 Output files are in /data folder:
-
+* `/db/database.php` - Database connexion
+* `/seed/users.php` - Fake members 
 * `/views` - Front-End pages
 * `/assets/css` - CSS files
 * `/assets/images` - Images
@@ -64,9 +63,56 @@ Variables in the database network :
     * `available_for_job`
     * `bio`
     * `img`
-    
+* `post` - values:
+    * `id`
+    * `content`
+    * `user_id`
+    * `created_at`
+
+* `codes` - values:
+    * `id`
+    * `code`
+
+------------------------------------
+## Register, Login and Logout
+
+Register, Login and Logout are Implemented.
+
+
+
+------------------------------------
+## Profil Page
+
+You can change youre profil settings ( Picture, name, sex , country, city , gender )
+
+
+
+------------------------------------
+## Share youre code
+
+The share code was save in the database
+
+
+------------------------------------
+## Users list
+
+An acces to every users profil page
+
+------------------------------------
+## Post
+
+You can make Posts and share on your profil
+
+
+
 ------------------------------------
 ## Development config setup
+### Requirement :
+Make a folder 'data'
+
+And on vagrant install mysql server : sudo apt install mysql-server
+
+Database & Vagrant File are include.
 
 `Vagrant` :
 

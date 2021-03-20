@@ -18,6 +18,14 @@ if(!empty($_GET['id'])){
 
     if(!$user){
         redirect('index.php');
+    } else{
+        $q = $db->prepare('SELECT content, created_at at FROM post WHERE user_id = :user_id ORDER BY created_at DESC');
+
+        $q->execute([
+            'user_id' => get_session('user_id')
+        ]);
+        $post = $q->fetchAll(PDO::FETCH_OBJ);
+       
     }
 } else{
     redirect('profile.php?id='.get_session('user_id'));

@@ -269,6 +269,7 @@ header
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
   transition: all .5s ease 0s;
+  background-color: white;
 }
 
 .header-area .main-nav {
@@ -293,7 +294,6 @@ header
 .header-area .main-nav .nav {
   float: left;
   margin-top: 27px;
-  margin-left: 15%;
   margin-right: 0px;
   background-color: #fff;
   padding: 0px 20px;

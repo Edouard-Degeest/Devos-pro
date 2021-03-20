@@ -1,7 +1,8 @@
 <?php
 $servername = 'localhost';
 $username = 'root';
-$password = '0000';
+// Inserer mdp//
+$password = '';
 try{ 
 $db = new PDO("mysql:host=$servername;dbname=network", $username, $password);
 
